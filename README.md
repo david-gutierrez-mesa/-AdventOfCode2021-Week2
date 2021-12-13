@@ -1,1 +1,1 @@
-# -AdventOfCode2021-Week2
+# AdventOfCode2021-Week2
