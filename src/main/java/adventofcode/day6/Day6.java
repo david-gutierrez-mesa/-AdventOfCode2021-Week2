@@ -3,11 +3,11 @@ package adventofcode.day6;
 public class Day6 {
     public static void main(String[]args) {
 
-        int lanternfishNumber = Lanternfish.calculateNumber("data_day6.txt");
-        System.out.println("The result of part I is: " + lanternfishNumber);
+        Long numberOfLanternfish = Lanternfish.calculateNumber("data_day6.txt", 80);
+        System.out.println("The result of part I is: " + numberOfLanternfish);
 
-/*       int lanternfishNumberII = Lanternfish.calculateNumber("data_day6.txt");
-        System.out.println("The result of part II is: " + lanternfishNumberII);*/
+        Long numberOfLanternfishII =  Lanternfish.calculateNumber("data_day6.txt", 256);
+        System.out.println("The result of part II is: " + numberOfLanternfishII);
 
     }
 }
