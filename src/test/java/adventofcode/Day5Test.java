@@ -16,10 +16,10 @@ public class Day5Test {
                 "Result is not the expected one");
     }
 
-/*    @Test
+    @Test
     @DisplayName("Test Part II")
     public void testPartII() {
-        assertEquals(1924, Bingo.findLoser("Day5_Example.txt"),
+        assertEquals(12, Hydrothermal.segmentsWithDiagonal("Day5_Example.txt"),
                 "Result is not the expected one");
-    }*/
+    }
 }
